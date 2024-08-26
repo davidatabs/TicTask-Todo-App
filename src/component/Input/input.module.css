@@ -1,0 +1,7 @@
+.addInput {
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(2, 43, 105, 0.1);
+  box-sizing: border-box;
+}

@@ -1,0 +1,18 @@
+.activityContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.activityContainer button {
+  padding-inline: 0.75rem 0rem;
+  padding-bottom: 0.75rem;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  /* border-bottom: 1px solid grey; */
+}
+
+button.active {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid rgba(2, 43, 105, 0.1);
+  margin-bottom: 0.75rem;
+  border-radius: 4px;
+}
+
+.task > span {
+  flex-grow: 2;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.task > svg {
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  color: grey;
+}

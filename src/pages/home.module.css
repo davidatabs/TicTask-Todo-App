@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  /* background-image: url(/public/home/todoImg3.jpg); */
+  background-image: url(https://ticktask-vue.netlify.app/img/background.5dab1cc6.svg);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  width: 35%;
+}
+
+.bodyMain {
+  width: 100%;
+}
